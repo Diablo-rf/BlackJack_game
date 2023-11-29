@@ -13,6 +13,8 @@ h1 {
 
 #message-el {
     font-style: italic;
+    color: coral;
+    font-size: 150%;
 }
 
 button {

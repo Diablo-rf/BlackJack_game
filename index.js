@@ -100,11 +100,11 @@ function stand() {
         if(playerSum >= dealerSum) {
             console.log("player sum" + playerSum)
             player.player1Chips += 50
-            message = "You won! Do you want to play a new round?"
+            message = "You won!"
             gameStarted = false
         } else {
             player.player1Chips -= 50
-            message = "You lost! Do you want to play a new round?"
+            message = "You lost!"
             gameStarted = false
         } 
     } else {
