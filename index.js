@@ -116,5 +116,5 @@ function stand() {
         
         
 }
-console.log()
+
 
