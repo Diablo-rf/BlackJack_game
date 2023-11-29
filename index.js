@@ -46,8 +46,10 @@ function startGame() {
         playerCards = [firstCard, secondCard]
        playerSum = firstCard + secondCard
         renderGame()
-    } else {
+    } else if (player.player1Chips === 0) {
         messageEl.textContent = "You're out of chips!"
+    } else {
+        return
     }
     
 }
